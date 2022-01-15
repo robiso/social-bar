@@ -1,5 +1,5 @@
-# wonder-socialbar
-Social bar plugin for WonderCMS
+# Social bar for WonderCMS
+Creates a bar on top of your website for all your social media.
 
-## Setup
-Go into `plugins > social_bar > social_bar.php` and edit the links, and you sir are done.
+## How to use
+Open `plugins > social-bar > social-bar.php` and edit the test links with your ones.
