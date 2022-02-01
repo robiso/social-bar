@@ -1,6 +1,6 @@
 <?php
 
-// Plugin developed and coded by Jake, https://linford.work/
+// Plugin developed and coded by Jake, http://linford.work/
 // Tested with wonderCMS 3.3.0
 if(defined('VERSION'))
 	define('version', VERSION);
