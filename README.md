@@ -1,5 +1,5 @@
 # Social bar for WonderCMS
-### Author: Piers Morgan (https://github.com/PiersMorgan)
+### Author: DSLite06 (PiersMorgan) (https://github.com/DSLite06 https://github.com/PiersMorgan)
 ### Forked by: Robert Isoski (https://github.com/robiso)
 
 - Creates a bar on top of your website for all your social media.
