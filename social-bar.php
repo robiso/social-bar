@@ -1,7 +1,7 @@
 <?php
 
-// Plugin developed and coded by Jake, https://jakee.pw/
-// Tested with wonderCMS 2.4.0
+// Plugin developed and coded by Jake, https://linford.work/
+// Tested with wonderCMS 3.3.0
 if(defined('VERSION'))
 	define('version', VERSION);
 	defined('version') OR die('Direct access is not allowed.');
@@ -23,35 +23,34 @@ EOT;
 	return $args;
 }
 
-// EDIT YOUR LINKS BELOW
-// Or remove the ones you don't need
+// Edit your links below, or remove the ones you don't need.
 function LoadSocialBarHTML($args) {
     $script = <<<EOT
 	
     <div class="social-bar">
         <ul class="social-icons">
     		<li>
-    		    <a href="https://twitter.com/YourUserNameHere"> <i class="fa fa-twitter"></i></a>
+    		    <a href="https://twitter.com/YourUserNameHere" target="_blank"> <i class="fa fa-twitter"></i></a>
     		</li>
 
     		<li>
-    		    <a href="https://instagram.com/YourIG"> <i class="fa fa-instagram"></i></a>
+    		    <a href="https://instagram.com/YourIG" target="_blank"> <i class="fa fa-instagram"></i></a>
     		</li>
 
     		<li>
-    		    <a href="https://youtube.com/c/YourChannelURL"> <i class="fa fa-youtube"></i></a>
+    		    <a href="https://youtube.com/c/YourChannelURL" target="_blank"> <i class="fa fa-youtube"></i></a>
     		</li>
 
     		<li>
-    		    <a href="https://twitch.tv/yourTwitchUsername"> <i class="fa fa-twitch"></i></a>
+    		    <a href="https://twitch.tv/yourTwitchUsername" target="_blank"> <i class="fa fa-twitch"></i></a>
     		</li>
 
     		<li>
-    		    <a href="https://facebook.com/YourFacebookURL"> <i class="fa fa-facebook"></i></a>
+    		    <a href="https://facebook.com/YourFacebookURL" target="_blank"> <i class="fa fa-facebook"></i></a>
     		</li>
     		
     		<li>
-    		    <a href="https://linkedin.com"> <i class="fa fa-linkedin"></i></a>
+    		    <a href="https://linkedin.com" target="_blank"> <i class="fa fa-linkedin"></i></a>
     		</li>
         </ul>
     </div>
